@@ -12,4 +12,5 @@ const primeVueUiLicenseKey=import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
 
 createApp(App)
     .use(PrimeVue the:{preset:Material}, ripple:true, license:PrimeUiLicenseKey);
+    .use (i18n)
     .mount('#app')
